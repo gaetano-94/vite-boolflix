@@ -5,7 +5,13 @@ export default {
 </script>
 
 <template>
-  <main></main>
+  <main>
+    <div class="searchbar">
+      <ul>
+        <li></li>
+      </ul>
+    </div>
+  </main>
 </template>
 
 <style scoped lang="scss"></style>
