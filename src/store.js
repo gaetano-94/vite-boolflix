@@ -1,5 +1,5 @@
 import { reactive } from 'vue';
-import config from './apiConfig';
+import apiConfig from './apiConfig';
 
 export const store = reactive({
   movie: [],
