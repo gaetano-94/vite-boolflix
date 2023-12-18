@@ -2,7 +2,8 @@ import { reactive } from 'vue';
 import apiConfig from './apiConfig';
 
 export const store = reactive({
-  movie: [],
-  searchKet: '',
+  movies: [],
+  searchKey: '',
+  searchLanguage: 'it-IT',
   apiConfig,
 });
